@@ -67,8 +67,8 @@ namespace IterationStatements
 
 
             //start for loop here
-            var i = 0;
-            for (i = 199; i <= numbers.Count && i >=0; i-- )
+            
+            for (var i = 199; i <= numbers.Count && i >=0; i-- )
             {
                 Console.WriteLine(numbers[i]);
             }
